@@ -79,7 +79,7 @@ func main() {
 		return
 	}
 	client := kmpb.NewKeymapperServiceClient(conn)
-	resp, err := client.Get(ctx, &kmpb.GetRequest{Key: "stobridge_id"})
+	resp, err := client.Get(ctx, &kmpb.GetRequest{Key: "stobridge_user_id"})
 	if err != nil {
 		if status.Convert(err).Code() == codes.Unknown || status.Convert(err).Code() == codes.InvalidArgument {
 			log.Fatalf("Cannot read external: %v", err)
