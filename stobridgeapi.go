@@ -65,7 +65,8 @@ func (s *Server) ClientUpdate(ctx context.Context, in *rcpb.ClientUpdateRequest)
 			return nil, err
 		}
 
-		config.Tracked[in.GetInstanceId()] = version
+		// This is version 1
+		config.Tracked[in.GetInstanceId()] = 1
 	}
 
 	s.Log(fmt.Sprintf("Completed Update %v with %v and then %v (%v)", in.GetInstanceId(), version, config.Tracked[in.GetInstanceId()], updated))
