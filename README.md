@@ -1,3 +1,3 @@
 # stobridge
 
-Bridging between RC and STO
+Bridging between RC and STO.
