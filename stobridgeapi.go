@@ -8,7 +8,7 @@ import (
 	rcpb "github.com/brotherlogic/recordcollection/proto"
 )
 
-//ClientUpdate forces a move
+//ClientUpdate runs an update
 func (s *Server) ClientUpdate(ctx context.Context, in *rcpb.ClientUpdateRequest) (*rcpb.ClientUpdateResponse, error) {
 	version := (in.ProtoReflect().Descriptor().Fields().Len())
 	config, err := s.read(ctx)
