@@ -15,6 +15,6 @@ func (s *Server) ClientUpdate(ctx context.Context, in *rcpb.ClientUpdateRequest)
 	if err != nil {
 		return nil, err
 	}
-	s.Log(fmt.Sprintf("Updating %v with %v and %v", in.GetInstanceId(), version, config.Tracked[in.GetInstanceId()]))
+	s.Log(fmt.Sprintf("Updating %v with %v and then %v", in.GetInstanceId(), version, config.Tracked[in.GetInstanceId()]))
 	return &rcpb.ClientUpdateResponse{}, s.save(ctx, config)
 }
