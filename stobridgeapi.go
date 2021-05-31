@@ -50,7 +50,9 @@ func (s *Server) ClientUpdate(ctx context.Context, in *rcpb.ClientUpdateRequest)
 		config = &pb.Config{Tracked: make(map[int32]int32)}
 	}
 
+	updated := false
 	if config.Tracked[in.GetInstanceId()] != version {
+		updated = true
 		record, err := s.getRecord(ctx, in.GetInstanceId())
 		if err != nil {
 			return nil, err
@@ -66,6 +68,6 @@ func (s *Server) ClientUpdate(ctx context.Context, in *rcpb.ClientUpdateRequest)
 		config.Tracked[in.GetInstanceId()] = version
 	}
 
-	s.Log(fmt.Sprintf("Completed Update %v with %v and then %v", in.GetInstanceId(), version, config.Tracked[in.GetInstanceId()]))
+	s.Log(fmt.Sprintf("Completed Update %v with %v and then %v (%v)", in.GetInstanceId(), version, config.Tracked[in.GetInstanceId()], updated))
 	return &rcpb.ClientUpdateResponse{}, s.save(ctx, config)
 }
