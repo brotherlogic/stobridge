@@ -11,6 +11,10 @@ import (
 //ClientUpdate forces a move
 func (s *Server) ClientUpdate(ctx context.Context, in *rcpb.ClientUpdateRequest) (*rcpb.ClientUpdateResponse, error) {
 	version := (in.ProtoReflect().Descriptor().Fields().Len())
-	s.Log(fmt.Sprintf("Updating %v with %v", in.GetInstanceId(), version))
-	return &rcpb.ClientUpdateResponse{}, nil
+	config, err := s.read(ctx)
+	if err != nil {
+		return nil, err
+	}
+	s.Log(fmt.Sprintf("Updating %v with %v and %v", in.GetInstanceId(), version, config.Tracked[in.GetInstanceId()]))
+	return &rcpb.ClientUpdateResponse{}, s.save(ctx, config)
 }

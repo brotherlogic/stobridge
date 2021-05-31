@@ -17,6 +17,12 @@ import (
 	pbg "github.com/brotherlogic/goserver/proto"
 	kmpb "github.com/brotherlogic/keymapper/proto"
 	rcpb "github.com/brotherlogic/recordcollection/proto"
+	pb "github.com/brotherlogic/stobridge/proto"
+)
+
+const (
+	// KEY used to save scores
+	KEY = "github.com/brotherlogic/stobridge/config"
 )
 
 //Server main server type
@@ -31,6 +37,21 @@ func Init() *Server {
 		GoServer: &goserver.GoServer{},
 	}
 	return s
+}
+
+func (s *Server) save(ctx context.Context, config *pb.Config) error {
+	return s.KSclient.Save(ctx, KEY, config)
+}
+
+func (s *Server) read(ctx context.Context) (*pb.Config, error) {
+	scores := &pb.Config{}
+	data, _, err := s.KSclient.Read(ctx, KEY, scores)
+
+	if err != nil {
+		return nil, err
+	}
+
+	return data.(*pb.Config), nil
 }
 
 // DoRegister does RPC registration
