@@ -7,6 +7,7 @@ require (
 	github.com/brotherlogic/gobuildslave v0.0.0-20210517144112-4098e8e4a598 // indirect
 	github.com/brotherlogic/goserver v0.0.0-20210517140105-372f30a83363
 	github.com/brotherlogic/keymapper v0.0.0-20210311144023-8fb7e9401321
+	github.com/brotherlogic/recordcollection v0.0.0-20201126210339-d58e20a26a3b
 	github.com/prometheus/client_golang v1.10.0 // indirect
 	github.com/prometheus/common v0.25.0 // indirect
 	golang.org/x/net v0.0.0-20210525063256-abc453219eb5
