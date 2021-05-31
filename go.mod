@@ -3,6 +3,7 @@ module github.com/brotherlogic/stobridge
 go 1.13
 
 require (
+	github.com/brotherlogic/buildserver v0.0.0-20210531145152-0f496065de9d // indirect
 	github.com/brotherlogic/discovery v0.0.0-20210531005423-1d609c4f6278 // indirect
 	github.com/brotherlogic/goserver v0.0.0-20210517140105-372f30a83363
 	github.com/brotherlogic/keymapper v0.0.0-20210311144023-8fb7e9401321
