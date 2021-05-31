@@ -10,6 +10,7 @@ import (
 
 //ClientUpdate forces a move
 func (s *Server) ClientUpdate(ctx context.Context, in *rcpb.ClientUpdateRequest) (*rcpb.ClientUpdateResponse, error) {
-	s.Log(fmt.Sprintf("Updating %v", in.GetInstanceId()))
+	version := in.ProtoReflect().Descriptor()
+	s.Log(fmt.Sprintf("Updating %v with %v", in.GetInstanceId(), version))
 	return &rcpb.ClientUpdateResponse{}, nil
 }
