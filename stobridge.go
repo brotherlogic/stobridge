@@ -79,6 +79,22 @@ func (s *Server) GetState() []*pbg.State {
 	return []*pbg.State{}
 }
 
+func (s *Server) getRecord(ctx context.Context, instanceID int32) (*rcpb.Record, error) {
+	conn, err := s.FDialServer(ctx, "recordcollection")
+	if err != nil {
+		return nil, err
+	}
+	defer conn.Close()
+
+	client := rcpb.NewRecordCollectionServiceClient(conn)
+	resp, err := client.GetRecord(ctx, &rcpb.GetRecordRequest{InstanceId: instanceID})
+	if err != nil {
+		return nil, err
+	}
+
+	return resp.GetRecord(), nil
+}
+
 func main() {
 	var quiet = flag.Bool("quiet", false, "Show all output")
 	flag.Parse()
