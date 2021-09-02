@@ -3,16 +3,16 @@ module github.com/brotherlogic/stobridge
 go 1.13
 
 require (
-	github.com/brotherlogic/buildserver v0.0.0-20210531145152-0f496065de9d // indirect
-	github.com/brotherlogic/discovery v0.0.0-20210531005423-1d609c4f6278 // indirect
-	github.com/brotherlogic/goserver v0.0.0-20210517140105-372f30a83363
-	github.com/brotherlogic/keymapper v0.0.0-20210311144023-8fb7e9401321
-	github.com/brotherlogic/recordcollection v0.0.0-20210531012310-e5258b783078
-	github.com/brotherlogic/straightenthemout-library v0.0.0-20210530191904-3b9e295ed791
-	github.com/brotherlogic/straightenthemout-logic v0.0.0-20210530192106-5b95ae2edd5c
+	github.com/brotherlogic/goserver v0.0.0-20210829185834-0049c0c44546
+	github.com/brotherlogic/keymapper v0.0.0-20210820140329-0a4c6cea65e8
+	github.com/brotherlogic/recordcollection v0.0.0-20210831042015-ee3a689119c6
+	github.com/brotherlogic/straightenthemout-library v0.0.0-20210629012102-7f22261020e3
+	github.com/brotherlogic/straightenthemout-logic v0.0.0-20210604234626-a482616df899
 	github.com/golang/protobuf v1.5.2
-	golang.org/x/net v0.0.0-20210525063256-abc453219eb5
-	golang.org/x/sys v0.0.0-20210531080801-fdfd190a6549 // indirect
-	google.golang.org/grpc v1.38.0
-	google.golang.org/protobuf v1.26.0
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.5.0 // indirect
+	golang.org/x/net v0.0.0-20210825183410-e898025ed96a
+	golang.org/x/sys v0.0.0-20210902050250-f475640dd07b // indirect
+	google.golang.org/genproto v0.0.0-20210831024726-fe130286e0e2 // indirect
+	google.golang.org/grpc v1.40.0
+	google.golang.org/protobuf v1.27.1
 )

@@ -108,7 +108,7 @@ func main() {
 	server.PrepServer()
 	server.Register = server
 
-	ctx, cancel := utils.ManualContext("ghc", "ghc", time.Minute, false)
+	ctx, cancel := utils.ManualContext("ghc", time.Minute)
 	conn, err := server.FDialServer(ctx, "keymapper")
 	if err != nil {
 		if status.Convert(err).Code() == codes.Unknown {
