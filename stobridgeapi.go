@@ -55,6 +55,10 @@ func (s *Server) ClientUpdate(ctx context.Context, in *rcpb.ClientUpdateRequest)
 		updated = true
 		record, err := s.getRecord(ctx, in.GetInstanceId())
 		if err != nil {
+			// Silent return if the record has been deleted
+			if status.Convert(err).Code() == codes.OutOfRange {
+				return &rcpb.ClientUpdateResponse{}, nil
+			}
 			return nil, err
 		}
 		err = s.setMetadata(in.GetInstanceId(), &stopb.Metadata{
