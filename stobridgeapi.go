@@ -73,6 +73,6 @@ func (s *Server) ClientUpdate(ctx context.Context, in *rcpb.ClientUpdateRequest)
 		config.Tracked[in.GetInstanceId()] = 1
 	}
 
-	s.Log(fmt.Sprintf("Completed Update %v with %v and then %v (%v)", in.GetInstanceId(), version, config.Tracked[in.GetInstanceId()], updated))
+	s.CtxLog(ctx, fmt.Sprintf("Completed Update %v with %v and then %v (%v)", in.GetInstanceId(), version, config.Tracked[in.GetInstanceId()], updated))
 	return &rcpb.ClientUpdateResponse{}, s.save(ctx, config)
 }
