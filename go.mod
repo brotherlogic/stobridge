@@ -3,38 +3,38 @@ module github.com/brotherlogic/stobridge
 go 1.17
 
 require (
-	github.com/brotherlogic/goserver v0.0.0-20221101131206-ae5507567e47
-	github.com/brotherlogic/keymapper v0.0.0-20221012143359-650a1722a7f3
-	github.com/brotherlogic/recordcollection v0.0.0-20221101040814-6629d9ebac0b
+	github.com/brotherlogic/goserver v0.0.0-20221106165541-0672428e3628
+	github.com/brotherlogic/keymapper v0.0.0-20221111144428-b751cff3ce0b
+	github.com/brotherlogic/recordcollection v0.0.0-20221101233458-014e7b183c15
 	github.com/brotherlogic/straightenthemout-library v0.0.0-20220915011848-b6979392dbec
 	github.com/brotherlogic/straightenthemout-logic v0.0.0-20220915011113-088f62b87667
 	github.com/golang/protobuf v1.5.2
-	golang.org/x/net v0.1.0
-	google.golang.org/grpc v1.50.1
+	golang.org/x/net v0.2.0
+	google.golang.org/grpc v1.51.0
 	google.golang.org/protobuf v1.28.1
 )
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/brotherlogic/buildserver v0.0.0-20221031211912-592cc3ec179a // indirect
-	github.com/brotherlogic/datastore v0.0.0-20221025153738-d211d98ef920 // indirect
-	github.com/brotherlogic/discovery v0.0.0-20221031222634-46e85338d447 // indirect
-	github.com/brotherlogic/dstore v0.0.0-20221101131817-540c3a21b37e // indirect
-	github.com/brotherlogic/githubcard v0.0.0-20221031212056-6ca7af9b54d5 // indirect
-	github.com/brotherlogic/gobuildslave v0.0.0-20221101131522-03946130fa19 // indirect
+	github.com/brotherlogic/buildserver v0.0.0-20221106163924-62d984336757 // indirect
+	github.com/brotherlogic/datastore v0.0.0-20221118101519-e13fd53a8db9 // indirect
+	github.com/brotherlogic/discovery v0.0.0-20221128044228-c1d428adb034 // indirect
+	github.com/brotherlogic/dstore v0.0.0-20221102144812-76282d61ef80 // indirect
+	github.com/brotherlogic/githubcard v0.0.0-20221123151837-5c04b44df95a // indirect
+	github.com/brotherlogic/gobuildslave v0.0.0-20221128044223-5a408e11a31f // indirect
 	github.com/brotherlogic/godiscogs v0.0.0-20221025153630-9ad31d9fab21 // indirect
-	github.com/brotherlogic/keystore v0.0.0-20221031212034-42f2c05dff54 // indirect
+	github.com/brotherlogic/keystore v0.0.0-20221118101511-9bbbd1bfa3b7 // indirect
 	github.com/brotherlogic/lock v0.0.0-20221031210630-ece55f4dcdf4 // indirect
-	github.com/brotherlogic/logging v0.0.0-20221025153509-fcd1f9a46d06 // indirect
+	github.com/brotherlogic/logging v0.0.0-20221128044359-656074158c62 // indirect
 	github.com/brotherlogic/monitor v0.0.0-20221025152653-c10877c5f9e6 // indirect
 	github.com/brotherlogic/versionserver v0.0.0-20221025154054-c9bcd41be2f2 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
-	github.com/grpc-ecosystem/grpc-gateway/v2 v2.12.0 // indirect
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.14.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/mitchellh/go-ps v1.0.0 // indirect
-	github.com/prometheus/client_golang v1.13.0 // indirect
+	github.com/prometheus/client_golang v1.14.0 // indirect
 	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
@@ -44,7 +44,7 @@ require (
 	go.opentelemetry.io/otel/exporters/jaeger v1.11.1 // indirect
 	go.opentelemetry.io/otel/sdk v1.11.1 // indirect
 	go.opentelemetry.io/otel/trace v1.11.1 // indirect
-	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/sys v0.2.0 // indirect
 	golang.org/x/text v0.4.0 // indirect
-	google.golang.org/genproto v0.0.0-20221027153422-115e99e71e1c // indirect
+	google.golang.org/genproto v0.0.0-20221118155620-16455021b5e6 // indirect
 )
