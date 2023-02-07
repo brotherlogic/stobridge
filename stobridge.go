@@ -25,7 +25,7 @@ const (
 	KEY = "github.com/brotherlogic/stobridge/config"
 )
 
-//Server main server type
+// Server main server type
 type Server struct {
 	*goserver.GoServer
 	key string
@@ -124,6 +124,7 @@ func main() {
 		}
 		return
 	}
+	conn.Close()
 	server.key = resp.GetKey().GetValue()
 	cancel()
 
