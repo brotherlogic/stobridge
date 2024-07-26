@@ -87,8 +87,8 @@ github.com/brotherlogic/godiscogs v0.0.0-20240619222044-69e643325529 h1:m6lPFmPp
 github.com/brotherlogic/godiscogs v0.0.0-20240619222044-69e643325529/go.mod h1:4wYe3uogEJqP77td2b2j69c+TLcSDrqgd5pqj7vlb6U=
 github.com/brotherlogic/goserver v0.0.0-20240303220030-80da220f0393 h1:URH8Z026zIMp4jli5l0AdRpxorjYMAOzA3zf2eifYW8=
 github.com/brotherlogic/goserver v0.0.0-20240303220030-80da220f0393/go.mod h1:DQcHpGZOjqnapi7JCYxmpOebkVjqgpfLuPNNNquy4Z0=
-github.com/brotherlogic/keymapper v0.0.0-20240719015940-a2df23429150 h1:XZ9i0VVcbAsQCwmLLGRjK7jaZDPrP4HzNfdM6Y0VVFE=
-github.com/brotherlogic/keymapper v0.0.0-20240719015940-a2df23429150/go.mod h1:LQo6G+9eF+KEsxipISH43T5dbaQ+5WmeGvx3K/OlLvQ=
+github.com/brotherlogic/keymapper v0.0.0-20240726155917-2a679715336a h1:bkoQHG5hE9lyyM3ry8K1dFjoYDj7jW4qaIe+eKe9kAU=
+github.com/brotherlogic/keymapper v0.0.0-20240726155917-2a679715336a/go.mod h1:ZyUhc7oo17ALEUIFsiTrkCo3gBgV0ADjuW1g/LiC+gg=
 github.com/brotherlogic/keystore v0.0.0-20240508161349-814b3200b126 h1:6e12Cl80VtMghgEyTyx1tZB1mUSSBHeLhKvikwb7kIQ=
 github.com/brotherlogic/keystore v0.0.0-20240508161349-814b3200b126/go.mod h1:2JK2kJhI5ler7e7M1WtIpIkiNGG2qy8V6X7VZLCsd5k=
 github.com/brotherlogic/lock v0.0.0-20240722145008-bd42642df4bd h1:qdre9nZ5tk4B6MEMbNIJYNWIKHTf+dMZxZhBWRhtTEQ=

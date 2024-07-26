@@ -4,7 +4,7 @@ go 1.22.1
 
 require (
 	github.com/brotherlogic/goserver v0.0.0-20240303220030-80da220f0393
-	github.com/brotherlogic/keymapper v0.0.0-20240719015940-a2df23429150
+	github.com/brotherlogic/keymapper v0.0.0-20240726155917-2a679715336a
 	github.com/brotherlogic/recordcollection v0.0.0-20240724001929-c71582b292ab
 	github.com/brotherlogic/straightenthemout-library v0.0.0-20220915011848-b6979392dbec
 	github.com/brotherlogic/straightenthemout-logic v0.0.0-20220915011113-088f62b87667
