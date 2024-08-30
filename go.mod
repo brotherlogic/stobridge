@@ -6,7 +6,7 @@ toolchain go1.23.0
 
 require (
 	github.com/brotherlogic/goserver v0.0.0-20240826215223-fccbac46b3d4
-	github.com/brotherlogic/keymapper v0.0.0-20240823184126-6965fdea0b38
+	github.com/brotherlogic/keymapper v0.0.0-20240830190218-ace3fb1b99ae
 	github.com/brotherlogic/recordcollection v0.0.0-20240823200050-72d68d5b4573
 	github.com/brotherlogic/straightenthemout-library v0.0.0-20220915011848-b6979392dbec
 	github.com/brotherlogic/straightenthemout-logic v0.0.0-20220915011113-088f62b87667
@@ -19,9 +19,9 @@ require (
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/brotherlogic/buildserver v0.0.0-20240824025713-362a731e5e21 // indirect
-	github.com/brotherlogic/datastore v0.0.0-20240823184144-553700e7999c // indirect
+	github.com/brotherlogic/datastore v0.0.0-20240830190304-3b849e438317 // indirect
 	github.com/brotherlogic/discovery v0.0.0-20240826215549-ae5a6ef61f53 // indirect
-	github.com/brotherlogic/dstore v0.0.0-20240823194357-1385009330e9 // indirect
+	github.com/brotherlogic/dstore v0.0.0-20240830195421-227c0ab999f8 // indirect
 	github.com/brotherlogic/githubcard v0.0.0-20240826183939-ae9439264e14 // indirect
 	github.com/brotherlogic/githubridge v0.2802.0 // indirect
 	github.com/brotherlogic/gobuildslave v0.0.0-20240825223801-970efbec48de // indirect
