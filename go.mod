@@ -4,7 +4,7 @@ go 1.23.2
 
 require (
 	github.com/brotherlogic/goserver v0.0.0-20250123145056-95c6fbb2310a
-	github.com/brotherlogic/keymapper v0.0.0-20250309195229-d0f7a66ab6e3
+	github.com/brotherlogic/keymapper v0.0.0-20250309214904-2624eea8f513
 	github.com/brotherlogic/recordcollection v0.0.0-20250227174213-ce20ec909d87
 	github.com/brotherlogic/straightenthemout-library v0.0.0-20220915011848-b6979392dbec
 	github.com/brotherlogic/straightenthemout-logic v0.0.0-20220915011113-088f62b87667
@@ -16,17 +16,17 @@ require (
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/brotherlogic/buildserver v0.0.0-20250309185429-3272c6f1932a // indirect
+	github.com/brotherlogic/buildserver v0.0.0-20250309215330-83b231a9cf2f // indirect
 	github.com/brotherlogic/datastore v0.0.0-20250113225754-a9cab19c721e // indirect
 	github.com/brotherlogic/discovery v0.0.0-20241109204028-02908558af09 // indirect
 	github.com/brotherlogic/dstore v0.0.0-20250309192000-e5702328af79 // indirect
-	github.com/brotherlogic/githubcard v0.0.0-20250309195337-0414be5ed94b // indirect
+	github.com/brotherlogic/githubcard v0.0.0-20250309224659-cf4421c9a5c5 // indirect
 	github.com/brotherlogic/githubridge v0.2848.0 // indirect
-	github.com/brotherlogic/gobuildslave v0.0.0-20250309192738-24a81a79bb3f // indirect
+	github.com/brotherlogic/gobuildslave v0.0.0-20250309222520-5545a6d9876d // indirect
 	github.com/brotherlogic/godiscogs v0.0.0-20250131163651-1e34c776a68e // indirect
 	github.com/brotherlogic/keystore v0.0.0-20240508161349-814b3200b126 // indirect
-	github.com/brotherlogic/lock v0.0.0-20250309195157-068ccbe040fb // indirect
-	github.com/brotherlogic/logging v0.0.0-20250309195336-bc90fb377241 // indirect
+	github.com/brotherlogic/lock v0.0.0-20250309215328-a1bf78325758 // indirect
+	github.com/brotherlogic/logging v0.0.0-20250309221845-56576d7f66a8 // indirect
 	github.com/brotherlogic/monitor v0.0.0-20221025152653-c10877c5f9e6 // indirect
 	github.com/brotherlogic/versionserver v0.0.0-20221025154054-c9bcd41be2f2 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
