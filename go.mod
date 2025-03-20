@@ -4,7 +4,7 @@ go 1.23.2
 
 require (
 	github.com/brotherlogic/goserver v0.0.0-20250123145056-95c6fbb2310a
-	github.com/brotherlogic/keymapper v0.0.0-20250320034450-0dc23022608d
+	github.com/brotherlogic/keymapper v0.0.0-20250320055902-ec9c25f2bb02
 	github.com/brotherlogic/recordcollection v0.0.0-20250227174213-ce20ec909d87
 	github.com/brotherlogic/straightenthemout-library v0.0.0-20220915011848-b6979392dbec
 	github.com/brotherlogic/straightenthemout-logic v0.0.0-20220915011113-088f62b87667
@@ -16,17 +16,17 @@ require (
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/brotherlogic/buildserver v0.0.0-20250320045630-d7e55d84bd1b // indirect
+	github.com/brotherlogic/buildserver v0.0.0-20250320065106-54dd036707b4 // indirect
 	github.com/brotherlogic/datastore v0.0.0-20250313015544-917b63bdd6ff // indirect
 	github.com/brotherlogic/discovery v0.0.0-20241109204028-02908558af09 // indirect
-	github.com/brotherlogic/dstore v0.0.0-20250320054734-6afa3c4aad62 // indirect
-	github.com/brotherlogic/githubcard v0.0.0-20250320054851-ae22d10d20ef // indirect
+	github.com/brotherlogic/dstore v0.0.0-20250320064448-0471201d7a04 // indirect
+	github.com/brotherlogic/githubcard v0.0.0-20250320064812-1790c572e3b0 // indirect
 	github.com/brotherlogic/githubridge v0.2849.0 // indirect
-	github.com/brotherlogic/gobuildslave v0.0.0-20250320054515-e88ea7c38662 // indirect
+	github.com/brotherlogic/gobuildslave v0.0.0-20250320065403-88fcf4fcf20f // indirect
 	github.com/brotherlogic/godiscogs v0.0.0-20250131163651-1e34c776a68e // indirect
 	github.com/brotherlogic/keystore v0.0.0-20240508161349-814b3200b126 // indirect
-	github.com/brotherlogic/lock v0.0.0-20250320054440-3116f851fa92 // indirect
-	github.com/brotherlogic/logging v0.0.0-20250320054835-2a2beb7ef42c // indirect
+	github.com/brotherlogic/lock v0.0.0-20250320065053-554085e7f116 // indirect
+	github.com/brotherlogic/logging v0.0.0-20250320064908-44bdf065d723 // indirect
 	github.com/brotherlogic/monitor v0.0.0-20221025152653-c10877c5f9e6 // indirect
 	github.com/brotherlogic/versionserver v0.0.0-20221025154054-c9bcd41be2f2 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
