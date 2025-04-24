@@ -112,7 +112,7 @@ func main() {
 	conn, err := server.FDialServer(ctx, "keymapper")
 	if err != nil {
 		if status.Convert(err).Code() == codes.Unknown {
-			log.Fatalf("Cannot reach keymapper: %v", err)
+			server.CtxLog(ctx, fmt.Sprintf("Cannot reach keymapper: %v", err))
 		}
 		return
 	}
@@ -120,7 +120,7 @@ func main() {
 	resp, err := client.Get(ctx, &kmpb.GetRequest{Key: "stobridge_user_id"})
 	if err != nil {
 		if status.Convert(err).Code() == codes.Unknown || status.Convert(err).Code() == codes.InvalidArgument {
-			log.Fatalf("Cannot read external: %v", err)
+			server.CtxLog(ctx, fmt.Sprintf("Cannot read external: %v", err))
 		}
 		return
 	}
