@@ -5,7 +5,7 @@ go 1.23.2
 require (
 	github.com/brotherlogic/goserver v0.0.0-20250123145056-95c6fbb2310a
 	github.com/brotherlogic/keymapper v0.0.0-20250602203346-26865c367091
-	github.com/brotherlogic/recordcollection v0.0.0-20250602205018-36276df42ff4
+	github.com/brotherlogic/recordcollection v0.0.0-20250602205956-1529d068eaec
 	github.com/brotherlogic/straightenthemout-library v0.0.0-20220915011848-b6979392dbec
 	github.com/brotherlogic/straightenthemout-logic v0.0.0-20220915011113-088f62b87667
 	github.com/golang/protobuf v1.5.4
@@ -25,7 +25,7 @@ require (
 	github.com/brotherlogic/gobuildslave v0.0.0-20250509192246-2e37750a2b43 // indirect
 	github.com/brotherlogic/godiscogs v0.0.0-20250429182651-404c7473edf8 // indirect
 	github.com/brotherlogic/keystore v0.0.0-20240508161349-814b3200b126 // indirect
-	github.com/brotherlogic/lock v0.0.0-20250602203756-3a5c3fc602c2 // indirect
+	github.com/brotherlogic/lock v0.0.0-20250602205758-5d26d22b0d30 // indirect
 	github.com/brotherlogic/logging v0.0.0-20250602201702-a1889c06861b // indirect
 	github.com/brotherlogic/monitor v0.0.0-20221025152653-c10877c5f9e6 // indirect
 	github.com/brotherlogic/versionserver v0.0.0-20221025154054-c9bcd41be2f2 // indirect
