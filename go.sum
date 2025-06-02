@@ -97,8 +97,8 @@ github.com/brotherlogic/logging v0.0.0-20250602201702-a1889c06861b h1:Pea15VLMQF
 github.com/brotherlogic/logging v0.0.0-20250602201702-a1889c06861b/go.mod h1:L1TMFakuB/Fe0BEz7aYdLtroYgMttt7D4+W0rqIl1OY=
 github.com/brotherlogic/monitor v0.0.0-20221025152653-c10877c5f9e6 h1:hxu2T9JspE76sL3XAx/CNtA9bOO6QCEJkyG9rBXFEVA=
 github.com/brotherlogic/monitor v0.0.0-20221025152653-c10877c5f9e6/go.mod h1:babny4VO2GqFwjXqhJsP4a6la4XJeMT6f4BgLBPq4G8=
-github.com/brotherlogic/recordcollection v0.0.0-20250602223529-b5eef571ddec h1:+DrAxHjpMyyKf9iEQkBCpyB84UVzxzPji6aBjzZ9FlM=
-github.com/brotherlogic/recordcollection v0.0.0-20250602223529-b5eef571ddec/go.mod h1:AD4oE8dt5u/Q2Y23qmQCTrgiea6VSepVHTfsg4xCJRE=
+github.com/brotherlogic/recordcollection v0.0.0-20250602225401-22ba20307a3c h1:nEJJW0obh2KqiV+TOeUMFGu+hlI6RVFUYTD9OqRadvY=
+github.com/brotherlogic/recordcollection v0.0.0-20250602225401-22ba20307a3c/go.mod h1:jba1sRre63p1pfJaiKTUqFwsnMGfHqv9fOSECXaj3Q8=
 github.com/brotherlogic/straightenthemout-library v0.0.0-20211023230423-534169788829/go.mod h1:3ELK46B3Q6WJVeEPuuzT10H8vlKRoEJOb/pYcMUcTSM=
 github.com/brotherlogic/straightenthemout-library v0.0.0-20220915011848-b6979392dbec h1:ZQkTUVVE4G0qMOa5LWleJzCbM5z5hYJEdBAuI2K5fp0=
 github.com/brotherlogic/straightenthemout-library v0.0.0-20220915011848-b6979392dbec/go.mod h1:JHtOTGXdWgaYkNsFgCOYJTd1vAXfkuGNdB1vEBBSLrQ=
