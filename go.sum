@@ -69,8 +69,8 @@ github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAE
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
 github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6rlkpw=
-github.com/brotherlogic/buildserver v0.0.0-20250712211825-9a4b032b09ed h1:t/knpT5DuMpv4KtAIWIRWBCjE3popX1vnLgU/Cfk9fw=
-github.com/brotherlogic/buildserver v0.0.0-20250712211825-9a4b032b09ed/go.mod h1:FEun8rRg5iRRBXgl0s44Lg7ANGblSINB9+EXOCBmY7g=
+github.com/brotherlogic/buildserver v0.0.0-20250713032500-155845af2cbb h1:Iexf373HkAIQxNzvgHnK0MeQUzvekCe5RR5X6I/yDp4=
+github.com/brotherlogic/buildserver v0.0.0-20250713032500-155845af2cbb/go.mod h1:KPpY7XYPmSwnzOi8oZmagZe8iom4u6HpIKxn8kQu6Pw=
 github.com/brotherlogic/datastore v0.0.0-20250610012354-722a6beaa331 h1:XTRMSwtcgm8sBrtDZzXCfkUey9r+eOYjFj85HxuEd10=
 github.com/brotherlogic/datastore v0.0.0-20250610012354-722a6beaa331/go.mod h1:myPHKOYfXo6wQFA2eU5n+0ZuIljYaye3FUUepu5zycI=
 github.com/brotherlogic/discovery v0.0.0-20250613142713-1dac6d7d6bdd h1:jAWLwRrmS8VgjeV7uE79A4P5DOxXk8WTYAYebHv+sFA=
