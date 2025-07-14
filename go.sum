@@ -91,10 +91,10 @@ github.com/brotherlogic/keymapper v0.0.0-20250713152634-3a7cddd4e89f h1:1QTu0gZo
 github.com/brotherlogic/keymapper v0.0.0-20250713152634-3a7cddd4e89f/go.mod h1:J4luoFI6dGnjISBk6vUMFg+I3W50bVqNJEpbuYBg1cM=
 github.com/brotherlogic/keystore v0.0.0-20240508161349-814b3200b126 h1:6e12Cl80VtMghgEyTyx1tZB1mUSSBHeLhKvikwb7kIQ=
 github.com/brotherlogic/keystore v0.0.0-20240508161349-814b3200b126/go.mod h1:2JK2kJhI5ler7e7M1WtIpIkiNGG2qy8V6X7VZLCsd5k=
-github.com/brotherlogic/lock v0.0.0-20250713152502-eaf3f1e12d82 h1:bcRxCarWKepv/pM8ixa52OVsHcTNA1yFH/KpTK3fTEk=
-github.com/brotherlogic/lock v0.0.0-20250713152502-eaf3f1e12d82/go.mod h1:P9A6SazXMtfw96pJ87/UhuvIUs++Lyj75S0MgUfzvhY=
-github.com/brotherlogic/logging v0.0.0-20250711231052-0c807c2916f6 h1:F3RFLzBzicnhfHNyv7KBXpNNooLEyYKmqlz7dh7aSBE=
-github.com/brotherlogic/logging v0.0.0-20250711231052-0c807c2916f6/go.mod h1:LqGprjgoFch8ZPtQH6/MgtAjkMbiBQi78jqsvYndhaw=
+github.com/brotherlogic/lock v0.0.0-20250714224739-b8d2f91ac571 h1:m7vNHTafFkW7fgS/UR52oiMIkeWEAWnIQJGeNvdO1Qs=
+github.com/brotherlogic/lock v0.0.0-20250714224739-b8d2f91ac571/go.mod h1:UFpLEy9fqqoZGHYXKGVEOQ550mCi3o7wpNoNTzorkms=
+github.com/brotherlogic/logging v0.0.0-20250714215612-d76512b702de h1:gjbjCr/fEFwSzO385DtnJtnOi6qJp8lxdXgyuqW2pxE=
+github.com/brotherlogic/logging v0.0.0-20250714215612-d76512b702de/go.mod h1:LqGprjgoFch8ZPtQH6/MgtAjkMbiBQi78jqsvYndhaw=
 github.com/brotherlogic/monitor v0.0.0-20221025152653-c10877c5f9e6 h1:hxu2T9JspE76sL3XAx/CNtA9bOO6QCEJkyG9rBXFEVA=
 github.com/brotherlogic/monitor v0.0.0-20221025152653-c10877c5f9e6/go.mod h1:babny4VO2GqFwjXqhJsP4a6la4XJeMT6f4BgLBPq4G8=
 github.com/brotherlogic/recordcollection v0.0.0-20250625165631-0ab7d5811bd2 h1:ngTMN0yJbwB8PG/LN1fr4JtN4L6K4nrh3eHm13Fz6pE=
